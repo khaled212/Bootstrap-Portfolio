@@ -1,6 +1,6 @@
 index
 div.background {
-  background: url(klematis.jpg) repeat;
+  background: url(klematis.jpg);
   border: 3px solid black;
   border-radius: 25px;
 }
@@ -8,8 +8,8 @@ div.transbox {
   margin: 80px;
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.3;
-  filter: alpha (opacity=30); /* For IE8 and earlier */
+  opacity: 0.6;
+  filter: alpha (opacity=30);
   border-radius: 25px;
 }
 div.transbox p {
@@ -33,6 +33,7 @@ div.transbox {
   opacity: 0.3; 
   filter: alpha (opacity=30); /* For IE8 and earlier */
   border-radius: 25px;
+
 }
 div.transbox p {
   margin: 8%;
@@ -40,10 +41,14 @@ div.transbox p {
   color: #000000;
   float: center;
 }
-div.container { 
+div.container10 { 
   text-align: left;
   position: relative;
-  border-radius: 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 4px 10px;
+  cursor: pointer; 
+  background-color: #4CAF50; 
 }
 div.container1 {
   position: relative;
@@ -58,16 +63,15 @@ div.container2 {
 contant
 
 div.background {
-  background: url(klematis.jpg) repeat;
+  background: url(klematis.jpg);
   border: 3px solid black;
   border-radius: 25px;
 }
 div.transbox {
   margin: 40px;
-  background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.3;
-  filter: alpha (opacity=30); /* For IE8 and earlier */
+  opacity: 0.6;
+  filter: alpha (opacity=30); 
   border-radius: 25px;
 }
 div.transbox p {
@@ -75,3 +79,4 @@ div.transbox p {
   font-weight: bold;
   color: #000000;
   float: center;
+}
